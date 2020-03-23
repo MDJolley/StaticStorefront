@@ -1,0 +1,123 @@
+body {
+  background-color: #a0ac9a;
+  padding-bottom: 40px;
+}
+nav {
+  background-color: #8f857d;
+  height: 50px;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  box-shadow: 0 5px 10px;
+  z-index:2;
+}
+nav a{
+  position: relative;
+  top:-8px;
+  color: white;
+  font-family: "Bookman Old Style", sans-serif;
+  text-align: center;
+  text-shadow: 
+    -1px 1px 2px #000,
+		1px 1px 2px #000,
+		1px -1px 0 #000,
+		-1px -1px 0 #000;
+  text-decoration:none;
+}
+.socials {
+  position: relative;
+  top: -63px;
+  float: right;
+  margin: 0 5px;
+  border: 2px solid black;
+  border-radius: 36px;
+  height: 36px;
+  width: 36px;
+  box-shadow: 0 2px 2px -1px;
+}
+.socials:hover{
+  border: 2px solid white;
+}
+nav input {
+  position:relative;
+  float: right;
+  top: -53px;
+  left: -10px;
+  width: 200px;
+  box-shadow: 0px 0px 1px;
+}
+#about {
+  position: relative;
+  top:100px;
+  float: left;
+  width: 20%;
+  height: 500px;
+  margin: 0 10px;
+  background-color:#A59D97;
+  border-top: 3px solid black;
+  border-left:3px solid black;
+  box-shadow: 2px 2px 4px;
+  border-radius: 5px;
+}
+#about img{
+  max-width: 90%;
+  border-radius:5px;  
+  border: 1px solid #585858;
+}
+#about h3{
+  margin: 3px;
+  text-align: center;
+}
+#about p{
+  text-align: justify;
+  margin: 8px;
+}
+.shops{
+  margin-top: 50px;
+  width: 75%;
+  float: right;
+}
+.store {
+  float:left;
+  width: 300px;
+  height: 450px;
+  background-color: #e3d8d0;
+  border: 1px solid grey;
+  border-radius: 9px;
+  margin: 50px 15px 0px;
+  box-shadow: 0 2px 2px;
+}
+.store:hover,
+.store:focus {
+  box-shadow: 0 10px 10px -5px;
+  transform: translateY(-0.4em);
+}
+.store div{
+  position:relative;
+  margin:5%;
+  border-radius:10px;
+  border: 1px solid grey;
+  box-shadow: 0px 1px 2px;
+}
+.store h2{
+  text-align:center;
+}
+.store p{
+  text-align: justify;
+  margin: 15px;
+}
+.store a{
+  text-decoration:none;
+  color:black;
+}
+.storeLink {
+  width: 120px;
+  text-align: center;
+  background-color: #A59D97;
+  text-decoration:none;
+  left: 26%;  
+}
+.storeLink:hover{
+  background-color: #8f857d; 
+}
